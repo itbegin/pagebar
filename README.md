@@ -9,7 +9,7 @@
 [demo](http://resource.itbegin.com/openprj/pagebar/samples/pagebar.html)
 
 
-## Documentation
+## usage
 
 PageBarApp.js
 
@@ -80,3 +80,11 @@ languageTitles: {
     records: '条',
   }
 ```
+
+## sample
+
+git clone repository and change current directory to this project directory.
+
+1. npm i
+2. npm start
+3. http://localhost:8080/samples/pagebar.html
