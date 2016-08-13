@@ -1,0 +1,7 @@
+/node_modules
+/assets
+/lib
+/dist
+/coverage
+*.log
+/mochawesome-reports
