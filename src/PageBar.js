@@ -170,7 +170,7 @@ class PageBar extends React.Component {
           {this.getPageTextDom(newCurPage - 1, totalPage, preCsName, languageTitles.prev)}
           {this.renderPageNum(newCurPage, totalPage)}
           {this.getPageTextDom(newCurPage + 1, totalPage, lastCsName, languageTitles.next)}
-          {this.getPageTextDom(newCurPage, totalPage, lastCsName, languageTitles.last)}
+          {this.getPageTextDom(totalPage, totalPage, lastCsName, languageTitles.last)}
         </div>
       </div>
       )
